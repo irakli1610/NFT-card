@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D192C;
+}
+#box{
+    background-color:#15263F;
+    width: 350px;
+    border-radius: 15px;
+
+    
+}
+#etherium-image{ 
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+   
+}
+
+#image-div{
+    width: 302px;
+    height: 302px;
+    margin: 24px;
+    position: relative;
+}
+
+#image-div:hover  #image_overlay_div {
+    opacity: 1;
+    transition: all 0.5s ease;
+    
+}
+#image_overlay_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 247, 0.6);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+
+#header_1{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27.72px;
+    width: 302px;
+    height: 28px;
+    margin: auto;
+}
+#p_main{
+    color: #8BACD9;
+    width: 302px;
+    margin: auto;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 16px;
+}
+#header_1:hover{
+    color: #00FFF8;
+}
+#hr_1{
+    width: 302px;
+}
+#avatar-image{
+    width: 33px; 
+    height: 33px;
+    display: inline;
+    
+}
+#avatar_div{
+    display: flex;
+    width: 230px;
+    height: 33px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    margin-top: 16px;
+    
+}
+#avatar_p1{
+    display: inline;
+    color: #8BACD9;
+    line-height: 20.16px;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-bottom: 7px;
+    margin-left: 16px;
+
+}
+#avatar_p2{
+    display: inline;
+    color:white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    margin-top: 6px;
+    margin-bottom: 7px;
+    margin-right: 2px;
+    margin-left: 5px;
+}
+#avatar_p2:hover{
+    color: #00FFF8;
+}
+#icons_div{
+    display: flex;
+    width: 301px;
+    height: 20px;
+    margin: 24px;
+    align-items: center;
+
+}
+#p_icons_clock{
+    display: inline;
+    font-family: 'Outfit', sans-serif;
+    color: #8BACD9;
+    margin-left: 9px;
+    margin-right: 1px;
+
+}
+#p_icons_etherium{
+    font-family: 'Outfit', sans-serif;
+    display: inline;
+    color: #00FFF8;
+    margin-left: 6.5px;
+    margin-right: 112.15px;
+}
